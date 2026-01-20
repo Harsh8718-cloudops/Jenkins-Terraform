@@ -22,3 +22,10 @@ variable "name_tag" {
    description = "Name of the EC2 instance"
    default     = "My EC2 Instance"
 }
+
+
+variable "subnet_id" {
+  description = "The VPC Subnet ID to launch the instance in"
+  type        = string
+  default     = "subnet-053dbe821b92c7437"
+}

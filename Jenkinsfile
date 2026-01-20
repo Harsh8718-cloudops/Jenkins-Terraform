@@ -101,10 +101,10 @@ pipeline {
 
     post {
         success {
-            echo 'Terraform pipeline completed successfully ✅'
+            echo 'Terraform pipeline completed successfully'
         }
         failure {
-            echo 'Terraform pipeline failed ❌'
+            echo 'Terraform pipeline failed'
         }
         always {
             cleanWs()
